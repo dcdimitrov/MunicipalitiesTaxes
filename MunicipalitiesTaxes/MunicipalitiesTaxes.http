@@ -1,0 +1,45 @@
+@MunicipalitiesTaxes_HostAddress = http://localhost:5250
+
+GET {{MunicipalitiesTaxes_HostAddress}}/api/v1/Municipalities/
+Accept: application/json
+
+###
+
+POST {{MunicipalitiesTaxes_HostAddress}}/api/v1/Municipalities/
+Content-Type: application/json
+Accept-Language: en-US,en;q=0.5
+
+{
+    "Name": "copenhagen"
+}
+
+###
+
+POST {{MunicipalitiesTaxes_HostAddress}}/api/v1/Municipalities/1/taxrecords
+Content-Type: application/json
+Accept-Language: en-US,en;q=0.5
+
+{
+    "Type": "Daily",
+    "TaxValue": "0.1",
+    "ValidFrom": "2024-06-25",
+    "ValidTo": "2024-06-25"
+}
+
+###
+
+PUT {{MunicipalitiesTaxes_HostAddress}}/api/v1/Municipalities/1/taxrecords/2
+Content-Type: application/json
+Accept-Language: en-US,en;q=0.5
+
+{
+    "Type": "Daily",
+    "TaxValue": "0.3",
+    "ValidFrom": "2024-12-25",
+    "ValidTo": "2024-12-25"
+}
+
+###
+
+GET {{MunicipalitiesTaxes_HostAddress}}/api/v1/Municipalities?municipalityName=copenhagen&targetDate=2024-06-26
+Accept: application/json

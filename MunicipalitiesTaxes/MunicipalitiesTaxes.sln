@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MunicipalitiesTaxes", "MunicipalitiesTaxes.csproj", "{A8F5DE7C-2C19-48E9-A02C-699033B72684}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MunicipalitiesTaxes.Tests", "..\MunicipalitiesTaxes.Tests\MunicipalitiesTaxes.Tests.csproj", "{C63EEC3F-4724-4E39-B5D3-41086455E07D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8F5DE7C-2C19-48E9-A02C-699033B72684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8F5DE7C-2C19-48E9-A02C-699033B72684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8F5DE7C-2C19-48E9-A02C-699033B72684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8F5DE7C-2C19-48E9-A02C-699033B72684}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C63EEC3F-4724-4E39-B5D3-41086455E07D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C63EEC3F-4724-4E39-B5D3-41086455E07D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C63EEC3F-4724-4E39-B5D3-41086455E07D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C63EEC3F-4724-4E39-B5D3-41086455E07D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9AD6FE1-588F-4B70-B16F-2F7BF411F4A2}
+	EndGlobalSection
+EndGlobal
